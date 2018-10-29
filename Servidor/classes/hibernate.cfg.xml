@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.password">72919704</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1:1433;databaseName=MEII_DB</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.default_schema">dbo</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property> -->
+		<!-- <property name="hibernate.connection.password">$9704.ALX.azure</property> -->
+		<!-- <property name="hibernate.connection.url">jdbc:sqlserver://bryanalexandercd.database.windows.net:1433;database=MEII;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;</property> -->
+		<!-- <property name="hibernate.connection.username">bcondor@bryanalexandercd</property> -->
+		<!-- <property name="hibernate.default_schema">dbo</property> -->
+		<!-- <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property> -->
+		<!-- <property name="hibernate.show_sql">true</property> -->
+
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Archivo" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Articulo" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Cargo" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Cliente" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Cotizacion" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.DetalleCotizacion" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Documento" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Empleado" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Formulario" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.FormularioEstado" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.FormularioEstadoId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.NivelAcceso" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Proveedor" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Prueba" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.PruebaId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.TipoArticulo" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.UnidadMedida" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Usuario" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.Precio" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwArticulo" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwArticuloId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwCotizacion" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwCotizacionId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwReporteCotizacion" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwReporteCotizacionId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwReporteDetalleCotizacion" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwReporteDetalleCotizacionId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwCotizacionRegistrada" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwCotizacionRegistradaId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.VwEmpleadoId" />
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.SP_TablaArticulo" />
+
+		<mapping
+			class="com.bryanalexandercd.ProyectoMeii.modelo.entidad.SP_0" />
+	</session-factory>
+</hibernate-configuration>
