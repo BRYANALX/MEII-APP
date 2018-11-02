@@ -7,6 +7,7 @@ com\bryanalexandercd\ProyectoMeii\controlador\C_Action_Cliente.class
 com\bryanalexandercd\ProyectoMeii\controlador\C_Action_ProveedorListar.class
 com\bryanalexandercd\ProyectoMeii\controlador\C_Action_Importar.class
 com\bryanalexandercd\ProyectoMeii\modelo\entidad\DetalleCotizacion.class
+com\bryanalexandercd\ProyectoMeii\vista\Correo$1.class
 com\bryanalexandercd\ProyectoMeii\vista\MantenimientoInsertar$1.class
 com\bryanalexandercd\ProyectoMeii\vista\Backup$1.class
 com\bryanalexandercd\ProyectoMeii\modelo\Reporte.class
@@ -43,6 +44,7 @@ com\bryanalexandercd\ProyectoMeii\vista\ArticuloIndex$AdicionarArticulos.class
 com\bryanalexandercd\ProyectoMeii\controlador\C_Action_UnidadMedidaInsertar.class
 com\bryanalexandercd\ProyectoMeii\modelo\ConfiguracionGeneral.class
 com\bryanalexandercd\ProyectoMeii\modelo\GestorCorreo.class
+com\bryanalexandercd\ProyectoMeii\modelo\ParametroSeguro.class
 com\bryanalexandercd\ProyectoMeii\vista\ListarAdicional.class
 com\bryanalexandercd\ProyectoMeii\controlador\C_Action_ProductoListar.class
 com\bryanalexandercd\ProyectoMeii\controlador\C_Action_ClienteListar.class

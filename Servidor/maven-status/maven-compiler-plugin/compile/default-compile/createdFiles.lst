@@ -1,5 +1,6 @@
 com\bryanalexandercd\ProyectoMeii\modelo\ConfiguracionGeneral.class
 com\bryanalexandercd\ProyectoMeii\modelo\entidad\Usuario.class
+com\bryanalexandercd\ProyectoMeii\modelo\ParametroSeguro.class
 com\bryanalexandercd\ProyectoMeii\modelo\entidad\Formulario.class
 com\bryanalexandercd\ProyectoMeii\principal\Servidor.class
 com\bryanalexandercd\ProyectoMeii\interfaces\Estilo.class

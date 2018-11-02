@@ -1,1 +1,0 @@
-Gramphos EIRL;192.168.0.31;2018-09-23 23:02:58;bryanalexandercd@gmail.com;$9704.ALX.gmail;(01) 1012123;(051) 969606879;P:\GoogleDrive\Dev\JAVA SE\MEII_V1\Cliente\ProyectoMeii\src\main\resources\images;P:\GoogleDrive\Dev\JAVA SE\MEII_V1\Cliente\ProyectoMeii\src\main\resources\images\log.txt
