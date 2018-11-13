@@ -1,1 +1,0 @@
-Gramphos EIRL;192.168.0.31;2018-11-10 23:51:10;administracion@acriled.com;VALENTINA;(01) 654321 ;(051) 969606879 ;P:\GoogleDrive\Proyecto\MEII\Cliente\ProyectoMeii\src\main\resources\images;P:\GoogleDrive\Proyecto\MEII\Cliente\ProyectoMeii\src\main\resources\images\log.txt
